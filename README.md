@@ -8,7 +8,7 @@ In this lab, I will be using the following:
 - 1 x Mini PC
 - 1 x Netgear managed switch
 
-![Router-on-a-Stick Network Topography](Router-on-a-Stick\ Network\ Topography.png)
+![Router-on-a-Stick Network Topography](Router-on-a-Stick-Network-Topography.png)
 ## Hardware Setup
 - Install RaspAP on an SD card using Raspberry Pi Imager and install SD card into Pi.
 - Install Raspberry Pi OS Lite on another SD card the same way and install it onto another Raspberry Pi. Do the same to the rest of the Pis.
