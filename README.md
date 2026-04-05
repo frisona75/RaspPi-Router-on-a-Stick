@@ -13,8 +13,8 @@ In this lab, I will be using the following:
 - Install RaspAP on an SD card using Raspberry Pi Imager and install SD card into Pi.
 - Install Raspberry Pi OS Lite on another SD card the same way and install it onto another Raspberry Pi. Do the same to the rest of the Pis.
 - Make sure the Raspberry Pi you're using as a router has 2 ethernet ports. If not, use a usb/ethernet dongle to add another port.
-- Connect the home router and switch to the Pi and turn the Pi on.
-- Connect the rest of the Raspberry Pis and the mini PC to the switch and turn the rest of the devices on. 
+- Connect the home router and port 1 of the switch to the Router Pi and turn the Pi on.
+- Connect the rest of the Raspberry Pis to ports 3 - 5 and the mini PC to port 2 on the switch and turn the rest of the devices on. 
 - Scan the network using nmap to identify the Router Pi's IP address.
 - Access the web interface by typing the Router Pi's IP address into web browser.
 - Login with username "admin" password "secret".
