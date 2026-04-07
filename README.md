@@ -53,8 +53,8 @@ echo "8021q" | sudo tee -a /etc/modules
 sudo ip link add link eth0 name eth0.10 type vlan id 10
 sudo ip link add link eth0 name eth0.20 type vlan id 20
 
-sudo ip addr add 192.168.10.1/24 dev eth0.10
-sudo ip addr add 192.168.20.1/24 dev eth0.20
+sudo ip addr add 10.0.10.1/24 dev eth0.10
+sudo ip addr add 10.0.20.1/24 dev eth0.20
 
 sudo ip link set eth0.10 up
 sudo ip link set eth0.20 up
